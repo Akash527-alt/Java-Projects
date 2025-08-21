@@ -51,7 +51,7 @@ public class ArrayEmployeeRepositoryImpl implements EmployeeRepository{
 	@Override
 	public List<Employee> getEmployees() {
 		Employee[] coppiedEmployee = Arrays.copyOf(employees, employeeCount);
-		return null; 		// returning null for the time being
+		return null;// returning null for the time being
 	}
 
 	@Override
