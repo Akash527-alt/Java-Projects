@@ -27,3 +27,24 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+
+# Ignore build output directories
+/out/
+target/
+bin/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled classes
+*.class
+
+# Ignore logs and temp files
+*.log
+*.tmp
