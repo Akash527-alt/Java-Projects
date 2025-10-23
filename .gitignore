@@ -48,3 +48,6 @@ Thumbs.db
 # Ignore logs and temp files
 *.log
 *.tmp
+
+
+*.class
